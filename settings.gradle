@@ -1,2 +1,11 @@
 rootProject.name = 'admin-authority-service'
 
+include 'common'
+include 'container'
+
+include 'adapter'
+include 'adapter:web'
+include 'adapter:persistence'
+
+include 'application'
+include 'domain'

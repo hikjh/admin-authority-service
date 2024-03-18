@@ -1,0 +1,13 @@
+project(':container') {
+
+    bootJar { enabled = true }
+    jar { enabled = false }
+
+    dependencies {
+        implementation project(':common')
+        implementation project(':adapter:web')
+        implementation project(':adapter:persistence')
+        implementation project(':application')
+        implementation project(':domain')
+    }
+}
