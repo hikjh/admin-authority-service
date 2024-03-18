@@ -1,0 +1,18 @@
+server:
+  port: 0
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+
+spring:
+  application:
+    name: admin-authority-service
+  profiles:
+    active: local
+    group:
+      local:
+        - local-database
