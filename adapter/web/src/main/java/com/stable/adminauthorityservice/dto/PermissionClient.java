@@ -4,7 +4,6 @@ public class PermissionClient {
     public record CreatePermissionRequest(
             String resource,
             String actionType,
-            String codeType,
-            String description
+            String codeType
     ) {}
 }

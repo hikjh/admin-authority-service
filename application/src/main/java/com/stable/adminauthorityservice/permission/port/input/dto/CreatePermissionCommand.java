@@ -11,12 +11,12 @@ public record CreatePermissionCommand(
         PermissionCodeType codeType,
         String description
 ) {
-    public static CreatePermissionCommand of(String resource, String actionType, String codeType, String description) {
+    public static CreatePermissionCommand of(String resource, String actionType, String codeType) {
         return CreatePermissionCommand.builder()
                 .resource(resource)
                 .actionType(PermissionActionType.valueOf(actionType))
                 .codeType(PermissionCodeType.valueOf(codeType))
-                .description(description)
+                .description(PermissionCodeType.valueOf(codeType).getDescription())
                 .build();
     }
 }

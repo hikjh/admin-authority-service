@@ -20,7 +20,7 @@ public class PermissionApiController {
 
     @PostMapping
     public void createPermission(@RequestBody CreatePermissionRequest request) {
-        CreatePermissionCommand command = of(request.resource(), request.actionType(), request.codeType(), request.description());
+        CreatePermissionCommand command = of(request.resource(), request.actionType(), request.codeType());
         createPermissionUseCase.createPermission(command);
     }
 }
