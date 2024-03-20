@@ -2,7 +2,7 @@ package com.stable.adminauthorityservice;
 
 import com.stable.adminauthorityservice.mapper.PermissionCommandJpaMapper;
 import com.stable.adminauthorityservice.model.PermissionJpaEntity;
-import com.stable.adminauthorityservice.permission.Permission;
+import com.stable.adminauthorityservice.permission.entity.Permission;
 import com.stable.adminauthorityservice.permission.port.output.PermissionCommandRepository;
 import com.stable.adminauthorityservice.repository.PermissionJpaRepository;
 import lombok.RequiredArgsConstructor;

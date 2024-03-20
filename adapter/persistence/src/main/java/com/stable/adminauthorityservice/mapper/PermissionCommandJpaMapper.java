@@ -1,7 +1,7 @@
 package com.stable.adminauthorityservice.mapper;
 
 import com.stable.adminauthorityservice.model.PermissionJpaEntity;
-import com.stable.adminauthorityservice.permission.Permission;
+import com.stable.adminauthorityservice.permission.entity.Permission;
 import org.springframework.stereotype.Component;
 
 @Component

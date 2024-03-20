@@ -1,4 +1,4 @@
-package com.stable.adminauthorityservice.permission;
+package com.stable.adminauthorityservice.permission.entity;
 
 import com.stable.adminauthorityservice.domain.entity.AggregateRoot;
 import com.stable.adminauthorityservice.domain.type.PermissionActionType;

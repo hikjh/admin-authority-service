@@ -1,6 +1,6 @@
 package com.stable.adminauthorityservice.permission.service;
 
-import com.stable.adminauthorityservice.permission.Permission;
+import com.stable.adminauthorityservice.permission.entity.Permission;
 import com.stable.adminauthorityservice.permission.port.input.CreatePermissionUseCase;
 import com.stable.adminauthorityservice.permission.port.input.dto.CreatePermissionCommand;
 import com.stable.adminauthorityservice.permission.port.output.PermissionCommandRepository;
