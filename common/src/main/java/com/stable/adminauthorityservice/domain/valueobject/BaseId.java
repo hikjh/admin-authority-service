@@ -6,6 +6,10 @@ public abstract class BaseId<T> {
 
     private T id;
 
+    public BaseId(T id) {
+        this.id = id;
+    }
+
     public T getId() {
         return id;
     }
